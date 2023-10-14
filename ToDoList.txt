@@ -2,4 +2,5 @@
 * buttonlara tooltip ekle
 * bağlantı ayarlarına beni hatırla seçeneği ekle
 * buttonlara resim ekle
-* 
+* formlara ikon ekle
+* hakkında sayfasını ekle
