@@ -1,0 +1,5 @@
+﻿* menustrip'e hover ekle
+* buttonlara tooltip ekle
+* bağlantı ayarlarına beni hatırla seçeneği ekle
+* buttonlara resim ekle
+* 
