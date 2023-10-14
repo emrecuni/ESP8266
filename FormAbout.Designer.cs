@@ -80,6 +80,7 @@
             this.linkLabelLinkedin.TabIndex = 2;
             this.linkLabelLinkedin.TabStop = true;
             this.linkLabelLinkedin.Text = "Linkedin";
+            this.linkLabelLinkedin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelLinkedin_LinkClicked);
             // 
             // linkLabelGithub
             // 
@@ -90,6 +91,7 @@
             this.linkLabelGithub.TabIndex = 3;
             this.linkLabelGithub.TabStop = true;
             this.linkLabelGithub.Text = "Github";
+            this.linkLabelGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelGithub_LinkClicked);
             // 
             // labelCommunication
             // 
@@ -115,7 +117,8 @@
             this.MinimizeBox = false;
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FormAbout";
+            this.Text = "Hakkında";
+            this.Load += new System.EventHandler(this.FormAbout_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

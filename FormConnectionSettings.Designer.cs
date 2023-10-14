@@ -69,7 +69,6 @@
             this.textBoxPort.Name = "textBoxPort";
             this.textBoxPort.Size = new System.Drawing.Size(126, 21);
             this.textBoxPort.TabIndex = 3;
-            this.textBoxPort.Text = "49231";
             this.textBoxPort.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBoxIP
@@ -78,7 +77,6 @@
             this.textBoxIP.Name = "textBoxIP";
             this.textBoxIP.Size = new System.Drawing.Size(126, 21);
             this.textBoxIP.TabIndex = 2;
-            this.textBoxIP.Text = "192.168.200.49";
             this.textBoxIP.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // labelPort
